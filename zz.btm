@@ -1,0 +1,3 @@
+set INCLUDE=c:\util\_msc\INC;d:\dev\inc
+set LIBPATH=c:\util\_msc\LIB;d:\dev\lib
+set LIB=c:\util\_msc\LIB;d:\dev\lib

@@ -1,0 +1,20 @@
+
+There is a new, updated active project list @ M:\projlist\projlist.doc. 
+There have been so many addtions and deactivations since the last one
+was published I'm not going to try to detail them all in this message. 
+I suggest you review the list for project numbers of interest to you. 
+The largest additions to the list are for the new AASHTO C/S project and
+a new Texas contract.  The new Texas numbers begin 1047-.  The new
+AASHTO C/S numbers begin 1107-, and have the client name AASHTO CLIENT
+SERVER (instead of just AASHTO).
+
+As a reminder, this list is most useful when you know the project number
+and want to identify active tasks and subtasks.  If you don't know the
+project number you s/b coding your time to, ask the person who assigned
+you the work.  You can find your way to the number you're interested in
+by using the Edit, Find command in Word.
+
+If you see any errors or have any questions, please ask me or Gina.
+
+Thanks,
+Pat

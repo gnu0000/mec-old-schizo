@@ -1,0 +1,6 @@
+NAME         schizo WINDOWCOMPAT NEWFILES
+DESCRIPTION  'schizo'
+HEAPSIZE     2048                 
+STACKSIZE    32767
+EXETYPE      OS2            
+

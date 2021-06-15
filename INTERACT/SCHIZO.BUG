@@ -1,0 +1,33 @@
+all : schizo.exe
+
+#  CMP=cl /W3 /c /AC /Od /Zip /nologo $*.c
+#  CMP=cl /W3 /c /AC /Ox /Grs /Zp /nologo
+#
+CMP=cl /W3 /c /AL /Od /Gs /Zip /nologo
+
+#
+#
+#
+LNK=link/CO/NOLOGO/NOD/NOE
+
+
+#
+#
+#
+LIBS=os2 llibcep d:\ebs\src\gnulib\GnuLibl
+
+
+:FileList SrcFiles =
+   {         
+   Schizo
+   }
+
+
+:CmdList CmdLine = {"$(CMP) $*.c"}
+
+:Expand SrcFiles,CmdLine,,obj,,c,INCLUDES 
+
+Schizo.exe : {F: SrcFiles,,obj} Schizo.def
+  $(LNK) {F: SrcFiles,,obj},,NUL,$(LIBS),Schizo.def
+
+

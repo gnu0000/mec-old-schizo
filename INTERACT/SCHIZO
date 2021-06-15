@@ -1,0 +1,29 @@
+all : schizo.exe
+
+#  CMP=cl /W3 /c /AC /Od /Zip /nologo $*.c
+#  CMP=cl /W3 /c /AC /Ox /Grs /Zp /nologo
+#
+CMP=cl /W3 /c /AL /Od /Gs /Zip /nologo
+
+#
+#
+#
+LNK=link/CO/NOLOGO/NOD/NOE
+
+
+#
+#
+#
+LIBS=os2 llibcep d:\ebs\src\gnulib\GnuLibl
+
+
+
+
+
+Schizo.obj : Schizo.c 
+   $(CMP) $*.c
+
+Schizo.exe : Schizo.obj  Schizo.def
+  $(LNK) Schizo.obj ,,NUL,$(LIBS),Schizo.def
+
+
